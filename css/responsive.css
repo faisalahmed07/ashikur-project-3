@@ -1,0 +1,49 @@
+@media (max-width:991px) {
+    .button{
+        padding:  8px 20px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .button.outline{
+        padding: 8px 7px;
+    }
+
+    .banner .banner-cnt h4{
+        font-size: 15px;
+    }
+
+    .banner .banner-cnt h4 svg{
+        font-size: 16px;
+        height: 16px;
+    }
+
+    .banner .banner-cnt h2{
+        font-size: 34px;
+    }
+
+    .banner .banner-img img{
+        max-width: 100%;
+    }
+
+    .icon {
+        align-items: center;
+    }
+
+   .social ul li a i {
+        margin-top:12px ;
+    }
+
+}
+
+
+/* about sect */
+
+@media (min-width:320px) and (max-width: 991px){
+    .about .about-img img{
+        max-width: 100%;
+        transform: scalex(-1);
+    }
+}
+
+/* about sect end */

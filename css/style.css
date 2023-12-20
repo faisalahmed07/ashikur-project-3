@@ -1,0 +1,189 @@
+:root{
+    --primery-color:#353535;
+    --secondry-color:#F8BC17;
+    --primery-font:'Poppins', sans-serif;
+}
+body{
+    font-family: var(--primery-font);
+    color: var(--primery-color);
+}
+
+ul,ol{
+    list-style: none;
+    display: inline-block;
+
+}
+
+li{
+    display: inline-block;
+}
+
+ a{
+    text-decoration: none;
+    color: var(--primery-color);
+}
+
+.icon{
+    font-family: Potta One;
+    font-size: 28px;
+}
+.icon span{
+    color:var(--secondry-color) ;
+}
+
+nav ul li a{
+    position: relative;
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   margin-right:20px ;
+   color: var(--primery-color);
+   
+    font-weight: 500;
+    line-height: 200%; /* 30px */
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: #888;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+/* banner sect starts */
+
+.banner h4{
+    color: var(--primery-color);
+    
+    font-size: 24px;
+    
+    font-weight: 400;
+    
+}
+
+.banner h2{
+    color:var(--primery-color);
+
+font-size: 64px;
+
+font-weight: 700;
+ 
+}
+
+.banner p{
+    color: var(--primery-color);
+
+font-size: 20px;
+
+font-weight: 400;
+line-height: 180%; 
+}
+
+.button{
+    padding: 16px 45px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: var(--secondry-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 180%; /* 36px */
+    border: 1px solid var(--primaryColor);
+}
+
+
+.button.outline{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 16px 18px;
+}
+
+.social ul{
+    justify-content: start;
+    margin-left: -20px;
+}
+
+.social ul li a{
+   width: 40px;
+   height: 40px;
+   background-color: #F4F3F3;
+   display: inline-block;
+   border-radius: 50%;
+   text-align: center;
+   transition: 0.4s;
+}
+
+.social ul li a i{
+    margin-top: 12px;
+    
+
+}
+
+
+.social{
+    padding-top: 20px;
+   display: inline-block;
+}
+
+.social ul li a:hover{
+    fill: white;
+    background-color: var(--primery-color);
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+/* banner sect ends */
+
+
+/* about  */
+
+.about{
+    background: rgb(255,204,0);
+background: linear-gradient(90deg, rgba(255,204,0,1) 56%, rgba(241,241,241,1) 100%);
+position: relative;
+}
+
+.about-cnt h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-cnt p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.about-cnt a{
+    padding: 17px 44px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+
+.about-cnt img{
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+/* about end */
+
+
